@@ -7,7 +7,7 @@ public class NaturalNumbers {
     	   System.out.println("The first 10 natural numbers");
    		int a = 1;
    		while(a<=10) {
-   			System.out.println(+a);
+   			System.out.println(a);
    			a++;
    		}
 	}
