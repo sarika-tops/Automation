@@ -57,11 +57,11 @@ public class Patterns {
 			System.out.println();
 		}
 		//lower part
-		for (int r4=3-1; r4>=1; r4--) {
-			for (int c4=3; c4>=r4; c4--) {
+		for (int r=3-1; r>=1; r--) {
+			for (int c=3; c>=r; c--) {
 				System.out.print("  ");
 			}
-			for (int c4=1; c4<=2*r4-1;c4++) {
+			for (int c=1; c<=2*r-1;c++) {
 				System.out.print("*");
 			}
 			System.out.println();
