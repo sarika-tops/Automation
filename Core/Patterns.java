@@ -46,10 +46,27 @@ public class Patterns {
  *****	
   ***
    * */
-		          
-			       }
-			       
-		        
+	       //upper part 
+		for (int r4=1; r4<=3; r4++) {
+			for (int c4=r4; c4<=3; c4++) {
+				System.out.print("  ");
+			}
+			for (int c4=1; c4<=2*r4-1; c4++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		//lower part
+		for (int r4=3-1; r4>=1; r4--) {
+			for (int c4=3; c4>=r4; c4--) {
+				System.out.print("  ");
+			}
+			for (int c4=1; c4<=2*r4-1;c4++) {
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		          }		        
 		    }
 		
     
